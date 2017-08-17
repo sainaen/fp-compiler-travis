@@ -1,0 +1,9 @@
+language: generic
+sudo: required
+dist: trusty
+
+before_install:
+  - sudo apt-get update
+
+script:
+  echo 'Done!'
